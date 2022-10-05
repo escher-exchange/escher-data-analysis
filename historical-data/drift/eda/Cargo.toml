@@ -1,0 +1,12 @@
+[package]
+name = "eda"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+helpers = { path = "../../../../escher/helpers" }
+itertools = "0.10.5"
+plotters = "0.3.2"
+polars = {version = "0.23.2", features = ["dtype-struct", "strings", "temporal", "describe", "performant", "rows", "lazy", "csv-file"]}
+rayon = "1.5.3"
+sp-runtime = { default-features = false, git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.27" }
