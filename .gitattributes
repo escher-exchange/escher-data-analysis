@@ -1,2 +1,4 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.gif filter=lfs diff=lfs merge=lfs -text
+historical-data/drift/eda/data/partial_dataset_00 filter=lfs diff=lfs merge=lfs -text
+historical-data/drift/eda/data/partial_dataset_01 filter=lfs diff=lfs merge=lfs -text
